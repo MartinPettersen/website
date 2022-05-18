@@ -15,7 +15,10 @@ const Navbar = () => {
                     <Link href="/about"><div>About</div></Link>
                 </Col>
                 <Col>
-                    <Link href="/"><>Home</></Link>
+                    <Link href="/"><div>Home</div></Link>
+                </Col>
+                <Col>
+                    <Link href="/posts/blogs/test-post"><div>Blog</div></Link>
                 </Col>
             </Row>
         </Container>
