@@ -2,11 +2,14 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://martinpettersen.github.io/website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.5",
