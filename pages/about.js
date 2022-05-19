@@ -1,6 +1,4 @@
-import Link from "next/link";
 import Head from 'next/head';
-import Layout from "../components/layout";
 
 export default function About() {
     return (
@@ -8,10 +6,12 @@ export default function About() {
     <Head>
         <title>About Page</title>
     </Head>
-    <Layout>
     
     <h1>This is my portfolio site</h1>
 
-    </Layout>
+    <h3>It is currently under construction please</h3>
+    <h3>Come back latter to enjoy the full experience</h3>
+
+
     </>);
 }

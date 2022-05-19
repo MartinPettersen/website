@@ -1,10 +1,13 @@
 import { Container } from "react-bootstrap";
-import style from "./container.module.css";
+import style from "../styles/container.module.css";
+// <div className={style.container}>{children}</div>
+
+
 const Contentbox = ({ children }) => {
   return (
     <>
       <Container>
-        <div className={style.container}>{children}</div>
+        <div className="container-fluid .contentbox">{children}</div>
       </Container>
     </>
   );

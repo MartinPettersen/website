@@ -16,9 +16,7 @@ a {
   text-decoration: none;
 }
 
-.link {
-  color: red;
-}
+.link{cursor:pointer}
 
 a:hover {
   text-decoration: underline;
@@ -26,4 +24,11 @@ a:hover {
 
 * {
   box-sizing: border-box;
+}
+
+.container {
+  background-color: #F6F6F5;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }

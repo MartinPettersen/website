@@ -1,5 +1,4 @@
-import styles from "./layout.module.css";
-import utilStyles from "./layout.module.css";
+import styles from "../styles/layout.module.css";
 import Contentbox from "./container";
 import Navbar from "./navbar";
 

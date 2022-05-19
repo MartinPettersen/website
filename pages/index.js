@@ -1,8 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link';
-import Layout from "../components/layout";
 
 export default function Home() {
   return (
@@ -13,12 +10,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <Layout>
-    <h1>header</h1>
+    <h1>This is a portfolio website in the making</h1>
 
-    <h1>content container</h1>
+    <h3>Come back latter to enjoy the full experience</h3>
 
-    </Layout>
 
     </div>
   )
