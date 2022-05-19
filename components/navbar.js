@@ -21,7 +21,7 @@ const Navbar = () => {
                     <Link href="/posts/portfolios"><div className="link">Portfolio</div></Link>
                 </Col>
                 <Col>
-                    <Link href="/posts/blogs/test-post"><div className="link">Blog</div></Link>
+                    <Link href="/posts/blogs/test-post"><div className="link">Blogs</div></Link>
                 </Col>
             </Row>
         </Container>
