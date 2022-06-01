@@ -8,13 +8,14 @@
     background-color: red;
 
 }
+
 .background {
-  background-color: #3F3C3C;
-
-
+  background: url('../public/image/tobias-reich--543MkMeSyE-unsplash.jpg');
+  background-color: red;
+height: 100vh;
+background-size:     cover; 
 
 }
-
 .header {
     display: flex;
     flex-direction: column;

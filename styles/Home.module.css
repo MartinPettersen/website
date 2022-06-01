@@ -1,5 +1,11 @@
 .container {
-  padding: 0 0rem;
+  background-color: white;
+  padding: 0;
+  padding-bottom: 1rem;
+  margin: 2.5rem;
+  margin-top: 4.5;
+  border: 0;
+  left: 0;
 }
 
 .main {

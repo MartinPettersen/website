@@ -4,7 +4,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #3F3C3C;
+  background-color: white;
+  scroll-behavior: smooth;
+
   }
 
 * {
@@ -27,8 +29,53 @@ a:hover {
 }
 
 .container {
-  background-color: #F6F6F5;
+  background-color: white;
   padding: 0;
-  margin: 0;
   border: 0;
+}
+
+.about_container {
+  background-color: white;
+  padding: 0;
+  padding-bottom: 1rem;
+  margin: 2.5rem;
+  border: 0;
+  left: 0;
+}
+.portfolio_container {
+  background-color: white;
+  padding: 0;
+  padding-bottom: 1rem;
+  margin: 2.5rem;
+  margin-top: 4.5rem;
+  border: 0;
+  left: 0;
+}
+.index_container {
+  background-color: white;
+  padding: 0;
+  padding-bottom: 1rem;
+  margin: 2.5rem;
+  margin-top: 4.5rem;
+  border: 0;
+  left: 0;
+}
+.description {
+  font-weight: bold
+}
+
+.about_heading {
+  left: 0;
+}
+.about_me {
+  left: 0;
+}
+.smooth{
+  scroll-behavior: smooth;
+}
+
+.sidebar {
+  text-align: left;
+  background-color: orange;
+  left: 0;
 }

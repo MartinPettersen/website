@@ -1,0 +1,40 @@
+{   
+    "blogPosts": [
+        {
+            "title": "",
+            "content": ""
+        },
+        {
+            "title": "",
+            "content": ""
+        }
+    ],
+    "portfolio": [
+        {
+            "title": "This Website",
+            "description": "This website doubles up as a place for me to show off projects while at the same time allowing me to try out new technology. \n When making this page I decided to try some new things that I wasnt familiar with.",
+            "body": "When building this site I wanted to try something new that I had zero experience with. \n I decided to go with Nextjs and bootstrap \nNextjs is being a React framework and Bootstrap being a CSS framework",
+            "tech": ["nextjs", "reactjs", "bootstrap", "css", "javascript", "html"],
+            "link": "https://github.com/MartinPettersen/website"
+        },
+        {
+            "title": "shelterAdoptionpet",
+            "description": "8 hour hackaton project",
+            "body": "We had to come up with an idea for an 8 hour hackathon that contained frontend, backend and either a database or used an api.\nThe idea was simple: Make it easier to adopt animals from shelters by combining animal adoption with a dating app.\n",
+            "tech": ["reactjs", "bootstrap", "css", "javascript", "html"],
+            "link": "https://github.com/MartinPettersen/shelterAdoptionpet"
+        }
+    ],
+    "about": [
+        {
+            "title": "About this site",
+            "img": "",
+            "content": "This website doubles up as a place for me to show off projects while at the same time allowing me to try out new technology \n Under the Portfolio page you will see some hand picked projects. \nUnder the Github page you will see information about all my public github repositories"
+        },
+        {
+            "title": "About me",
+            "img": "",
+            "content": "<h3>I&apos;m a fullstack Developer Looking for work</h3><h3>With 2 bachelor degrees</h3><h3>It is currently under construction please</h3><h3>Come back latter to enjoy the full experience</h3>" 
+        }
+    ]
+}

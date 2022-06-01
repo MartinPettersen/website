@@ -11,14 +11,17 @@ const Navbar = () => {
                 <h1 className="">Portfolio Logo</h1>
             </header>
             <Row >
+                <Col>
+                    <Link href="/"><div className="link">Home</div></Link>
+                </Col>
                 <Col> 
                     <Link  href="/about"><div className="link">About</div></Link>
                 </Col>
                 <Col>
-                    <Link href="/"><div className="link">Home</div></Link>
+                    <Link href="/posts/portfolios"><div className="link">Portfolio</div></Link>
                 </Col>
                 <Col>
-                    <Link href="/posts/portfolios"><div className="link">Portfolio</div></Link>
+                    <Link href="/posts/github"><div className="link">Github</div></Link>
                 </Col>
                 <Col>
                     <Link href="/posts/blogs/test-post"><div className="link">Blogs</div></Link>
