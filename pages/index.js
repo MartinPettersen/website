@@ -11,7 +11,7 @@ export default function Home() {
         <meta name="description" content="Portfolio Page" />
       </Head>
 
-    <Sidebar />
+    <p>Hei der</p>
 
     </div>
     </div>

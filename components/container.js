@@ -7,7 +7,7 @@ const Contentbox = ({ children }) => {
   return (
     <>
       <Container>
-        <div className="container-fluid .contentbox">{children}</div>
+        <div className="container-fluid .contentbox content">{children}</div>
       </Container>
     </>
   );

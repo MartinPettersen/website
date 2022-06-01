@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 html,
 body {
   padding: 0;
@@ -78,4 +82,10 @@ a:hover {
   text-align: left;
   background-color: orange;
   left: 0;
+  width: 25vh;
+  height: 92.72vh
+}
+
+.content{
+  padding-left: 15rem;
 }
