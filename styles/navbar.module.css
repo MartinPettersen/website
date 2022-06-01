@@ -1,6 +1,8 @@
 .navbar{
-    background-color: #211F1F;
+    background-color: rgba(0,0,0,0.3);
     color: white;
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
 }
 
 .links {

@@ -11,9 +11,10 @@
 
 .background {
   background: url('../public/image/tobias-reich--543MkMeSyE-unsplash.jpg');
-  background-color: red;
-height: 100vh;
-background-size:     cover; 
+  background-color: rgba(0,0,0,7);
+  height: 100vh;
+  background-size:     cover; 
+  
 
 }
 .header {
