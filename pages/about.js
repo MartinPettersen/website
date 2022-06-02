@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
-
+import Image from 'next/image'
+import picture from '../public/image/martin.png'
 export default function About() {
   const [pageState, setPageState] = useState(true);
 
@@ -56,8 +57,14 @@ export default function About() {
         </div>
       ) : (
         <div className="about_me">
-          <h3>I&apos;m a fullstack Developer Looking for work</h3>
-          <h3>With 2 bachelor degrees</h3>
+          <h3>I have 2 bachelor’s:</h3>
+          <h3>one in Informatics:Programming and Networks (Informatikk: Programmering og nettverk)</h3>
+          <h3>and one in Multimedia technology and design (Multimedieteknologi og design).</h3>
+          <h3>I am currently working as a fullstack consualtant for Salt</h3>
+          <Image
+            src={picture}
+            alt="A portrait"
+          />
         </div>
       )}
     </>
