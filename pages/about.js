@@ -64,6 +64,9 @@ export default function About() {
           <Image
             src={picture}
             alt="A portrait"
+            width="100px"
+            height="100px"
+            layout="responsive"
           />
         </div>
       )}
