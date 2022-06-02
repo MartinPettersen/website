@@ -52,15 +52,12 @@ export default function About() {
             If you want to look for a project with as specific programming
             language etc, then the github link is for you
           </h3>
-          <h3>It is currently under construction please</h3>
-          <h3>Come back latter to enjoy the full experience</h3>
+
         </div>
       ) : (
         <div className="about_me">
           <h3>I&apos;m a fullstack Developer Looking for work</h3>
           <h3>With 2 bachelor degrees</h3>
-          <h3>It is currently under construction please</h3>
-          <h3>Come back latter to enjoy the full experience</h3>
         </div>
       )}
     </>

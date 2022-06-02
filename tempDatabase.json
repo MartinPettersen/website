@@ -1,12 +1,49 @@
 {   
     "blogPosts": [
         {
-            "title": "",
-            "content": ""
-        },
-        {
-            "title": "",
-            "content": ""
+            "title": "Test Post",
+            "description": "Testing to see if this works as intended",
+            "body": "The first off hopefully many blogs"
+        }, {
+            "title": "Test Post",
+            "description": "Testing to see if this works as intended",
+            "body": "The first off hopefully many blogs"
+        }, {
+            "title": "Test Post",
+            "description": "Testing to see if this works as intended",
+            "body": "The first off hopefully many blogs"
+        }, {
+            "title": "Test Post",
+            "description": "Testing to see if this works as intended",
+            "body": "The first off hopefully many blogs"
+        }, {
+            "title": "Test Post",
+            "description": "Testing to see if this works as intended",
+            "body": "The first off hopefully many blogs"
+        }, {
+            "title": "Test Post",
+            "description": "Testing to see if this works as intended",
+            "body": "The first off hopefully many blogs"
+        }, {
+            "title": "Test Post",
+            "description": "Testing to see if this works as intended",
+            "body": "The first off hopefully many blogs"
+        }, {
+            "title": "Test Post",
+            "description": "Testing to see if this works as intended",
+            "body": "The first off hopefully many blogs"
+        }, {
+            "title": "Test Post",
+            "description": "Testing to see if this works as intended",
+            "body": "The first off hopefully many blogs"
+        }, {
+            "title": "Test Post",
+            "description": "Testing to see if this works as intended",
+            "body": "The first off hopefully many blogs"
+        }, {
+            "title": "Test Post",
+            "description": "Testing to see if this works as intended",
+            "body": "The first off hopefully many blogs"
         }
     ],
     "portfolio": [
@@ -34,7 +71,7 @@
         {
             "title": "About me",
             "img": "",
-            "content": "<h3>I&apos;m a fullstack Developer Looking for work</h3><h3>With 2 bachelor degrees</h3><h3>It is currently under construction please</h3><h3>Come back latter to enjoy the full experience</h3>" 
+            "content": "<h3>I&apos;m a fullstack Developer Looking for work</h3><h3>With 2 bachelor degrees</h3>" 
         }
     ]
 }

@@ -24,7 +24,7 @@ const Navbar = () => {
                     <Link href="/posts/github"><div className="link">Github</div></Link>
                 </Col>
                 <Col>
-                    <Link href="/posts/blogs/test-post"><div className="link">Blogs</div></Link>
+                    <Link href="/posts/blogs"><div className="link">Blog</div></Link>
                 </Col>
             </Row>
         </Container>

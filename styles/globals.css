@@ -42,16 +42,18 @@ a:hover {
 
 .about_container {
 
-  padding: 0;
-  padding-bottom: 1rem;
-  margin: 2.5rem;
+  padding: 0rem;
+  padding-bottom: 0rem;
+  margin: 4rem;
   border: 0;
   left: 0;
 }
 .portfolio_container {
 
   padding: 0;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+
   margin: 2.5rem;
   margin-top: 4.5rem;
   border: 0;
@@ -72,9 +74,15 @@ a:hover {
 
 .about_heading {
   left: 0;
+  padding-bottom: 1rem;
+}
+.about_the_page{
+  left: 0;
+  padding: 1.5rem;
 }
 .about_me {
   left: 0;
+  padding: 1.5rem;
 }
 .smooth{
   scroll-behavior: smooth;
@@ -88,7 +96,7 @@ a:hover {
   -webkit-backdrop-filter: blur(18px);
   left: 0;
   width: 25vh;
-  height: 92.72vh;
+  height: 92.6vh;
   color: white;
 }
 
@@ -97,5 +105,29 @@ a:hover {
   -webkit-backdrop-filter: blur(8px);
 }
 .content{
+  margin-top: 2rem;
   padding-left: 15rem;
+  padding-bottom: 0rem;
+  max-height: 80vh;
+  overflow: auto;
+
+}
+
+.orange-border {
+  border: 0.1rem;
+  border-color: orange;
+  border-style: solid;
+  padding: 2rem;
+  margin-top: 1rem;
+  color: white;
+  background-color: rgba(0,0,0,0.3);
+  padding-bottom: 0rem;
+
+}
+
+.padding-col {
+  margin-right: 0rem;
+}
+
+.scrolling {
 }

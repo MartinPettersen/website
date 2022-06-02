@@ -1,10 +1,10 @@
-.card {
+.portfolioitem {
     border: 0.1rem;
     border-color: orange;
     border-style: solid;
     padding: 2rem;
     margin-top: 1rem;
     color: white;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.16);
 
 }
