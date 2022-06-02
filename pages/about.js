@@ -66,7 +66,6 @@ export default function About() {
             alt="A portrait"
             width="100px"
             height="100px"
-            layout="responsive"
           />
         </div>
       )}
