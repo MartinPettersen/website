@@ -87,7 +87,9 @@ a:hover {
 .smooth{
   scroll-behavior: smooth;
 }
-
+.image-container{
+  text-align: center;
+}
 .sidebar {
   text-align: left;
   background-color: rgba(255,140,0, 0.86);

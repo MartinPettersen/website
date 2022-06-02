@@ -2,21 +2,11 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import Image from 'next/image'
 import picture from '../public/image/martin.png'
+import { Container, Row, Col } from "react-bootstrap";
+
 export default function About() {
   const [pageState, setPageState] = useState(true);
 
-  /*
-  const [count, setCount] = useState(0);
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCount(prevCount => prevCount + 1);
-    }, 3000);
-
-    return () => clearInterval(intervalId)
-  }, []);
-  console.log(count)
-  console.log(pageState)
-*/
   useEffect(() => {
     const pageStateInterval = setInterval(() => {
       setPageState((prevPageState) => !prevPageState);
@@ -26,14 +16,6 @@ export default function About() {
   }, []);
   console.log(pageState);
 
-  /*
-  useEffect(() => {
-      const interval = setInterval(() => setPageState(() => !pageState), 7000);
-        console.log("the state atm: " + pageState2)
-        setPageState2(pageState2 + 1)
-    return () => clearInterval(interval)
-    },[])
-*/
   return (
     <>
       <Head>
@@ -57,16 +39,26 @@ export default function About() {
         </div>
       ) : (
         <div className="about_me">
+          <Container fluid>
+          <Row>
+          <Col>
           <h3>I have 2 bachelor’s:</h3>
           <h3>one in Informatics:Programming and Networks (Informatikk: Programmering og nettverk)</h3>
           <h3>and one in Multimedia technology and design (Multimedieteknologi og design).</h3>
           <h3>I am currently working as a fullstack consualtant for Salt</h3>
+          </Col>
+          <Col>
+          <div className="image-container">
           <Image
             src={picture}
             alt="A portrait"
-            width="100px"
-            height="100px"
-          />
+            width={200}
+            height={200}
+            />
+            </div>
+          </Col>
+          </Row>
+          </Container>
         </div>
       )}
     </>
