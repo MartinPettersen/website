@@ -3,8 +3,7 @@ import Link from "next/link";
 import Card from "../../../components/card";
 
 const GithubList = ({ repositories, repList }) => {
-  const github_account = process.env.GITHUB_ACCOUNT;
-  const git_key = process.env.ACCESS_KEY;
+
   return (
     <div>
       <h1>Github Page</h1>
@@ -23,7 +22,11 @@ const GithubList = ({ repositories, repList }) => {
 
 export const getServerSideProps = async () => {
   const data = await Axios.get(
-    "https://api.github.com/users/MartinPettersen/repos?"
+    "https://api.github.com/users/MartinPettersen/repos?", {
+      'headers': {
+        'Authorization': `Bearer ${process.env.GITHUB_ACCESS_TOKEN}`
+      }
+    }
   );
 
   const repositorieList = [];

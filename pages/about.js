@@ -16,10 +16,6 @@ export default function About() {
   }, []);
   console.log(pageState);
 
-  const github_account = process.env.GITHUB_ACCOUNT;
-  const git_key = process.env.ACCESS_KEY;
-  console.log(github_account)
-  console.log(git_key)
 
 
   return (
