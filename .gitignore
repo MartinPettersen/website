@@ -42,3 +42,9 @@ images.txt
 
 # heroku deploy
 herokudeploy.txt
+
+# blogpost.txt
+blogpost.txt
+
+# dotenv
+/pages/posts/github/.env
