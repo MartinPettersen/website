@@ -47,4 +47,4 @@ herokudeploy.txt
 blogpost.txt
 
 # dotenv
-/pages/posts/github/.env
+/pages/posts/github/.env.local
