@@ -6,12 +6,14 @@ import { Container, Row, Col } from "react-bootstrap";
 
 // return <div className={styles.container}>{children}</div>;
 
-export default function Layout({ children }) {
+export default function Layout({ children, isEnglish, handleLanguage }) {
+
+
   return (
     <div className={styles.background}>
-      <Navbar />
+      <Navbar isEnglish={isEnglish} handleLanguage={handleLanguage}/>
       <aside className="position-absolute w-full md:w-60">
-        <Sidebar />
+        <Sidebar isEnglish={isEnglish}/>
       </aside>
       <main className="content">
       <Contentbox >{children}</Contentbox>

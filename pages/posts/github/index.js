@@ -2,18 +2,18 @@ import Axios from "axios";
 import Link from "next/link";
 import Card from "../../../components/card";
 
-const GithubList = ({ repositories, repList }) => {
+const GithubList = ({ repositories, repList, isEnglish }) => {
 
   return (
-    <div>
-      <h1>Github Page</h1>
+    <div className="scrolling">
+      <h1>Github {isEnglish ? "Page" : "Side"}</h1>
       {repositories.map((repositorie) => (
         <Card key={repositorie.name}>
           <h2>Repositorie: {repositorie.name}</h2>
           <h2>
-            Link: <Link href={repositorie.html_url}>Github</Link>
+          {isEnglish ? "Link" : "Lenke"}: <Link href={repositorie.html_url}>Github</Link>
           </h2>
-          <h2>Languages: {repositorie.language}</h2>
+          <h2>{isEnglish ? "Languages" : "Språk"}: {repositorie.language}</h2>
         </Card>
       ))}
     </div>

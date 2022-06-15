@@ -21,8 +21,53 @@ a {
   text-decoration: none;
 }
 
-.link{cursor:pointer}
+.link{
+  cursor:pointer;
+  font-size: 25px;
+  text-shadow: 
+  0 0 5px #fff, 
+  0 0 10px #fff,
+  0 0 20px #fff,
+  0 0 40px #00d5ff,
+  0 0 60px #00d5ff,
+  0 0 80px #00d5ff,
+  0 0 90px #00d5ff,
+  0 0 100px #00d5ff,
+  0 0 150px #00d5ff;
+}
+.active-link{
+  cursor:pointer;
+  font-size: 30px;
+  color: white;
+  text-shadow: 
+  0 0 5px #fff, 
+  0 0 10px #fff,
+  0 0 20px #fff,
+  0 0 40px #ffaa00,
+  0 0 60px #ffaa00,
+  0 0 80px #ffaa00,
+  0 0 90px #ffaa00,
+  0 0 100px #ffaa00,
+  0 0 150px #ffaa00;
 
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 0px;
+  margin-top: 0px;
+  
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  33%  { transform: translate(0, -5px); }
+  66%  { transform: translate(0, 2px); }
+  100%   { transform: translate(0, -0px); }   
+}
 a:hover {
   text-decoration: underline;
 }
