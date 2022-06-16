@@ -5,14 +5,14 @@ import portfolioData from '../../../tempDatabase.json'
 import PortfolioItem from '../../../components/portfolioItem';
 const data = portfolioData;
 
-const PortfolioList = () => {
+const PortfolioList = ({isLight}) => {
   console.log(data.portfolio)
   return (
     <div className="portfolio_container">
       <h1>Portfolio Page</h1>
       <div>
         {data.portfolio.map(project => {
-          return <PortfolioItem key={project.title} project={project}/>
+          return <PortfolioItem key={project.title} project={project} isLight={isLight}/>
         })}
       </div>
     </div>

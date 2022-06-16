@@ -6,20 +6,22 @@ import Layout from "../components/layout";
 
 function MyApp({ Component, pageProps }) {
 
-  const [isEnglish, setIsEnglish] = useState(false)
+  const [isEnglish, setIsEnglish] = useState(false);
+  const [isLight, setIsLight] = useState(true);
 
   const handleLanguage = () => {
-    console.log('pushed')
     setIsEnglish(!isEnglish);
   }
-
+  const handleLight = () => {
+    setIsLight(!isLight);
+  }
 
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
   }, []);
   return (
-  <Layout isEnglish={isEnglish} handleLanguage={handleLanguage}>
-    <Component {...pageProps} isEnglish={isEnglish} />
+  <Layout isEnglish={isEnglish} handleLanguage={handleLanguage} isLight={isLight} handleLight={handleLight}>
+    <Component {...pageProps} isEnglish={isEnglish} isLight={isLight}/>
   </Layout>
   );
 }

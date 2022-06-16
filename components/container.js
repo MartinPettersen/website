@@ -3,7 +3,7 @@ import style from "../styles/container.module.css";
 // <div className={style.container}>{children}</div>
 
 
-const Contentbox = ({ children }) => {
+const Contentbox = ({ children, isLight }) => {
   return (
     <>
       <Container>

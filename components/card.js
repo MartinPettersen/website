@@ -1,11 +1,11 @@
 import { Container } from "react-bootstrap";
-import style from "../styles/card.module.css";
+import styles from "../styles/card.module.css";
 
 
-const Card = ({ children }) => {
+const Card = ({ children, isLight }) => {
   return (
     <>
-        <div className={style.card}>{children}</div>
+        <div className={isLight == true ? styles.card_light : styles.card}>{children}</div>
     </>
   );
 };

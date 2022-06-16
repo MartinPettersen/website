@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-const Sidebar = ({isEnglish}) => {
+const Sidebar = ({isEnglish, isLight}) => {
   const [message, setMessage] = useState('Customize this site')
 
   useEffect(() => {
@@ -13,7 +13,7 @@ const Sidebar = ({isEnglish}) => {
   
   });
   return (
-    <div className="sidebar">
+    <div className={isLight == true ? "sidebar_light" : "sidebar"}>
     <h1>This is a portfolio website in the making</h1>
 
     <h3>Come back latter to enjoy the full experience</h3>

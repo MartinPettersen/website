@@ -24,6 +24,8 @@ a {
 .link{
   cursor:pointer;
   font-size: 25px;
+}
+.neon {
   text-shadow: 
   0 0 5px #fff, 
   0 0 10px #fff,
@@ -38,7 +40,8 @@ a {
 .active-link{
   cursor:pointer;
   font-size: 30px;
-  color: white;
+}
+.active-neon {
   text-shadow: 
   0 0 5px #fff, 
   0 0 10px #fff,
@@ -49,7 +52,6 @@ a {
   0 0 90px #ffaa00,
   0 0 100px #ffaa00,
   0 0 150px #ffaa00;
-
 }
 
 .floating {
@@ -85,6 +87,14 @@ a:hover {
   color: white;
 }
 
+.container_light {
+  background-color: rgba(255,255,255,0.3);
+  padding: 0;
+  border: 0;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: black;
+}
 .about_container {
 
   padding: 0rem;
@@ -146,6 +156,17 @@ a:hover {
   height: 92.6vh;
   color: white;
 }
+.sidebar_light {
+  text-align: left;
+  background-color: rgba(135, 206, 250, 0.3);
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  left: 0;
+  width: 25vh;
+  height: 92.6vh;
+  color: black;
+}
 
 .glass {
   backdrop-filter: blur(8px);
@@ -169,7 +190,16 @@ a:hover {
   color: white;
   background-color: rgba(0,0,0,0.5);
   padding-bottom: 0rem;
-
+}
+.orange_border_light {
+  border: 0.1rem;
+  border-color: lightorange;
+  border-style: solid;
+  padding: 2rem;
+  margin-top: 1rem;
+  color: black;
+  background-color: rgba(255,255,255,0.5);
+  padding-bottom: 0rem;
 }
 
 .padding-col {
