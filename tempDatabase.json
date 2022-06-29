@@ -2,46 +2,57 @@
     "blogPosts": [
         {
             "title": "Test Post",
+            "nr": 1,
             "description": "Testing to see if this works as intended",
             "body": "The first off hopefully many blogs"
         }, {
             "title": "Test Post",
+            "nr": 2,
+            "description": "Testing to see if this works as intended",
+            "body": "what happends if we write realy long aaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }, {
+            "title": "Test Post",
+            "nr": 3,
+            "description": "Testing to see if this works as intended",
+            "body": "The first off hopefully many blogs \n testawdawdaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }, {
+            "title": "Test Post",
+            "nr": 4,
             "description": "Testing to see if this works as intended",
             "body": "The first off hopefully many blogs"
         }, {
             "title": "Test Post",
+            "nr": 5,
             "description": "Testing to see if this works as intended",
             "body": "The first off hopefully many blogs"
         }, {
             "title": "Test Post",
+            "nr": 6,
             "description": "Testing to see if this works as intended",
             "body": "The first off hopefully many blogs"
         }, {
             "title": "Test Post",
+            "nr": 7,
             "description": "Testing to see if this works as intended",
             "body": "The first off hopefully many blogs"
         }, {
             "title": "Test Post",
+            "nr": 8,
             "description": "Testing to see if this works as intended",
             "body": "The first off hopefully many blogs"
         }, {
             "title": "Test Post",
+            "nr": 9,
             "description": "Testing to see if this works as intended",
             "body": "The first off hopefully many blogs"
         }, {
             "title": "Test Post",
+            "nr": 10,
             "description": "Testing to see if this works as intended",
             "body": "The first off hopefully many blogs"
         }, {
             "title": "Test Post",
-            "description": "Testing to see if this works as intended",
-            "body": "The first off hopefully many blogs"
-        }, {
-            "title": "Test Post",
-            "description": "Testing to see if this works as intended",
-            "body": "The first off hopefully many blogs"
-        }, {
-            "title": "Test Post",
+            "nr": 11,
             "description": "Testing to see if this works as intended",
             "body": "The first off hopefully many blogs"
         }

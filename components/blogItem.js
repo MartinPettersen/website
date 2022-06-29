@@ -9,8 +9,7 @@ const PortfolioItem = ({project, isLight}) => {
         <div className={isLight == true ? "orange_border_light" : "orange-border"}>
             <h3>{project.title}</h3>
             <p className='description'>{project.description}</p>
-            <p>{project.body}</p>
-
+            <Link href={`/posts/blogs/${project.nr}`} >Click here to read more</Link>
         </div>
     </div>
   )
