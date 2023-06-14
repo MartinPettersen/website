@@ -7,7 +7,7 @@ import Layout from "../components/layout";
 function MyApp({ Component, pageProps }) {
 
   const [isEnglish, setIsEnglish] = useState(false);
-  const [isLight, setIsLight] = useState(true);
+  const [isLight, setIsLight] = useState(false);
 
   const handleLanguage = () => {
     setIsEnglish(!isEnglish);
